@@ -1,0 +1,7 @@
+syntax="proto3";
+package user_service;
+import "commons/user.proto";
+
+service UserService {
+  rpc CreateUser(commons.CreateUser) returns (commons.BasicResponseUser);
+}

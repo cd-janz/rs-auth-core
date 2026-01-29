@@ -1,0 +1,19 @@
+syntax="proto3";
+package commons;
+
+message Country{
+  string ID = 1;
+  string Name = 2;
+  string Code = 3;
+}
+
+message City{
+  string ID = 1;
+  string Name = 2;
+  Country country = 3;
+}
+
+message Address{
+  string Location = 1;
+  string AdditionalInfo = 2;
+}
