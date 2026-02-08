@@ -128,6 +128,7 @@ dependencies = [
  "prost",
  "prost-types",
  "sea-orm",
+ "serde",
  "tokio",
  "tonic",
  "tonic-prost",
